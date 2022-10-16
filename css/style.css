@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;700&family=Lato:wght@300;400;700&family=Mulish:wght@300;400;500;700&display=swap");
+
+#homeSection {
+  background-image: url("img/bg-pattern.png"), linear-gradient(90deg, #d90113, #843997);
+  background-repeat: repeat, repeat;
+}
+
+.col2{
+  text-align: left;
+}
+
+.jumbotron {
+  font-family: Muli, Helvetica, Arial, sans-serif;
+  background-color: #f4c03e;
+}
+
+.start {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #fdcc52;
+}
+
+.foot{
+  font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
+.start--sticky{
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: grey;
+  text-decoration: none;
+}
+
+.start--sticky:hover{
+  text-decoration: none;
+  color:  #fdcc52;
+}
+
+.menu--item {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #e1c4d6;
+}
+
+.menu--item:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.menu__item--sticky{
+  color: grey;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.menu__item--sticky:hover{
+  text-decoration: none;
+  color:  #fdcc52;
+}
+
+.menu--whiteBg:hover{
+  color:#fdcc52;
+}
+
+.start:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.paragraph {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.button {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: x-small;
+  padding: 10px 30px;
+}
+
+.button:hover {
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+  transition: all 0.3s;
+}
+
+.icon {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a63569;
+}
+
+.startingPage {
+  background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.401)), url("img/bg-cta.jpg");
+  background-repeat:no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover;
+}
+
+
+.startingPageCont {
+  background-image: url("img/bg-cta.jpg");
+  height: 50vh;
+}
+
+.btn {
+  display: inline;
+}
+
+.iphone {
+  max-width: 20%;
+}
+
+.line{
+
+  width: 15%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.305);
+}
+
+.socialNetwork{
+  background-color: rgba(253, 202, 72, 0.9)
+}
+
+.socialNetwork:hover{
+  background-color: rgba(253, 202, 72, 1)
+}
+.socialNetwork .fa{
+text-align: center;
+padding: 1rem ;
+border-radius: 50%;
+color: white;
+width: 70px;
+}
+
+.fa-twitter{
+  background-color: #1DA1F2;
+}
+
+.fa-facebook{
+  background-color: #4267B2;
+}
+
+.fa-google-plus{
+  background-color: #DB4437
+}
+
+.titles{
+  font-family:Catamaran, Helvetica, Arial, sans-serif
+}
+
+.mobileMenu{
+  display: none;
+  margin:0
+}
+
+.heart{
+  color: #d90113;
+}
+
+.menuText{
+  font-size: 1rem;
+}
+
+
+@media (max-width: 992px) { 
+  .mobileMenu {
+    display:block;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+
+  #menu{
+    display: none;
+  }
+
+  .display-4{
+    font-size: 2rem
+  }
+
+  .lastButton{
+    display: inline;
+  }
+
+  .paragraph{
+    font-size: 1.3rem;
+  }
+
+  .titles{
+    font-size: 3rem;
+  }
+
+  .menu--item:hover {
+    color: rgb(103, 103, 103);
+  }
+
+.start:hover {
+  color: rgb(103, 103, 103);
+}
+
+.paragraph{
+  text-align: center;
+}
+
+.newAgeCol{
+  text-align: center;
+}
+
+}
